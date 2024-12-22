@@ -1,6 +1,7 @@
 name: run
 on:
   workflow_dispatch:
+  push:
 jobs:
   trigger:
     runs-on: ubuntu-latest
